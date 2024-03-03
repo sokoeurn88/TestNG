@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Testng_Listener_Suite">
+	
+	<listeners>
+		<!--Syntax: <listener class-name = "packagename.classname" -->
+		<listener class-name = "testng_listener.testng_listener"/>
+	</listeners>
+	
+	
+	
+ 	<test thread-count="5" name="Login_Test">
+    	<classes>
+     		<class name="testng_listener.Login_Test">
+				<methods>
+			
+				<!--In this methods level: you can include or exclude methods you want to run or not-->
+				  <include name = "loginByEmail"/>
+				  <include name = "loginByFacebook"/>
+				  <exclude name = "loginByIcloud"/> <!--exclude is for not running method -->
+			  
+	  			</methods>
+	  		</class>
+    	</classes>
+  	</test> <!-- Login_Test -->
+
+
+
+</suite> <!-- Testng_Listener_Suite -->

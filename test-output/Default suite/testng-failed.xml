@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.Soft_Assert_05">
+      <class name="testng_listener.Login_Test">
         <methods>
-          <include name="verifyTitle"/>
-          <include name="tearDown"/>
+          <include name="loginByFacebook"/>
         </methods>
-      </class> <!-- testng.Soft_Assert_05 -->
+      </class> <!-- testng_listener.Login_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
