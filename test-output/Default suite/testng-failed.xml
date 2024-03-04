@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium_grid.Login_Test_on_Window_Using_Chrome">
+      <class name="pdf_reader.PDF_Reader">
         <methods>
-          <include name="tearDown"/>
           <include name="setup"/>
-          <include name="login"/>
         </methods>
-      </class> <!-- selenium_grid.Login_Test_on_Window_Using_Chrome -->
+      </class> <!-- pdf_reader.PDF_Reader -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

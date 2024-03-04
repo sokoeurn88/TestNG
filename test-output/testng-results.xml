@@ -1,63 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-03T15:20:51 CST" name="Testng_Listener_Suite" finished-at="2024-03-03T15:20:51 CST" duration-ms="54">
+  <suite started-at="2024-03-04T10:11:03 CST" name="Default suite" finished-at="2024-03-04T10:11:05 CST" duration-ms="1856">
     <groups>
     </groups>
-    <test started-at="2024-03-03T15:20:51 CST" name="Login_Test" finished-at="2024-03-03T15:20:51 CST" duration-ms="54">
-      <class name="testng_listener.Login_Test">
-        <test-method signature="loginByEmail()[pri:0, instance:testng_listener.Login_Test@42e99e4a]" started-at="2024-03-03T15:20:51 CST" name="loginByEmail" finished-at="2024-03-03T15:20:51 CST" duration-ms="14" status="PASS">
+    <test started-at="2024-03-04T10:11:03 CST" name="Default test" finished-at="2024-03-04T10:11:05 CST" duration-ms="1856">
+      <class name="pdf_reader.PDF_Reader">
+        <test-method signature="setup()[pri:0, instance:pdf_reader.PDF_Reader@74e52303]" started-at="2024-03-04T10:11:03 CST" name="setup" finished-at="2024-03-04T10:11:05 CST" duration-ms="1813" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginByEmail -->
-        <test-method signature="loginByFacebook()[pri:0, instance:testng_listener.Login_Test@42e99e4a]" started-at="2024-03-03T15:20:51 CST" name="loginByFacebook" finished-at="2024-03-03T15:20:51 CST" duration-ms="2" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [sarom] but found [chhay]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [sarom] but found [chhay]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at testng_listener.Login_Test.loginByFacebook(Login_Test.java:24)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginByFacebook -->
-      </class> <!-- testng_listener.Login_Test -->
-    </test> <!-- Login_Test -->
-  </suite> <!-- Testng_Listener_Suite -->
+        </test-method> <!-- setup -->
+      </class> <!-- pdf_reader.PDF_Reader -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
