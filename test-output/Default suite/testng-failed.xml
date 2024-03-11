@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pdf_reader.PDF_Reader">
+      <class name="applitools_UI_Test.Applitools_UI_Test">
         <methods>
-          <include name="setup"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- pdf_reader.PDF_Reader -->
+      </class> <!-- applitools_UI_Test.Applitools_UI_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
