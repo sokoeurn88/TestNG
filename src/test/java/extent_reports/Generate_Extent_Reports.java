@@ -12,13 +12,13 @@
 //import com.aventstack.extentreports.ExtentTest;
 //
 //public class Generate_Extent_Reports {
-//	
+//
 //	/*Specify the location of the report*/
 //	ExtentReports extent;
-//	
+//
 //	/*What details should be populated in the report*/
 //	ExtentTest test;
-//	
+//
 //	@Test
 //	public void startReport() {
 //		extent = new ExtentReports(System.getProperty("users.dir")+"/test-output/myownreport.html", true);
@@ -28,23 +28,23 @@
 //		extent.addSystemInfo("User Name", "Sokouern Sarom");
 //		extent.loadConfig(new File(System.getProperty("users.dir")+"\\extent-config.xml"));
 //	}
-//	
-//	
+//
+//
 //	@Test
 //	public void demoReportPass() {
 //		test = extent.startTest("demoReportsPass");
 //		Assert.assertTrue(true);
 //		test.log(logStatus.PASS, "Assert Pass as condition is true");
 //	}
-//	
+//
 //	@Test
 //	public void demoReportFail() {
 //		test = extent.startTest("demoReportsFail");
 //		Assert.assertTrue(false);
 //		test.log(logStatus.FAIL, "Assert Fail as condition is fail");
 //	}
-//	
-//	
+//
+//
 //	@AfterMethod
 //	public void getResult(ITestResult result) {
 //		if(result.getStatus()==ITestResult.FAILURE) {
@@ -52,14 +52,14 @@
 //		}
 //		extent.endTest(test);
 //	}
-//	
-//	
+//
+//
 //	@AfterTest
 //	public void endReport() {
 //		extent.flush(); /*clear report*/
 //	}
-//	
-//	
-//	
+//
+//
+//
 //
 //}

@@ -1,12 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="batch_testing.Payment_Test"/>
-      <class name="batch_testing.Login_Test"/>
-      <class name="batch_testing.Singup_Test"/>
-      <class name="batch_testing.Payment_Return_Test"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+cd C:\Users\sokoeurn chhay\eclipse-workspace2024Feb\hybrid_framework
+mvn clean install

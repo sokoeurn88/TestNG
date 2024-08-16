@@ -14,7 +14,7 @@
 
 //
 //public class PDFReader {
-//	
+//
 //	public List <RenderdImage> getImagesFromPDF(PDDocument document) {
 //		List <RenderdImage> images = new ArrayList<>();
 //		for(PDPage page : document.getPages()) {
@@ -22,9 +22,9 @@
 //		}
 //		return images;
 //	}
-//	
-//	private List<RenderedImages> getImagesFromResouces(PDResources resources) 
-//	
-//	
+//
+//	private List<RenderedImages> getImagesFromResouces(PDResources resources)
+//
+//
 //
 //}

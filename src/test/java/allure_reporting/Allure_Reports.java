@@ -19,37 +19,37 @@ import io.qameta.allure.Step;
 import io.qameta.allure.Story;
 
 public class Allure_Reports {
-	
+
 	/* to see results in server mode
-	 
+
 	go to cammand prompt: allure serve C:\Users\sokoeurn chhay\eclipse-workspace2024Feb\TestNG\allure-results
-	
+
 	Allure Annotation
-	
+
 	-> Description
 	-> Severity
 	-> Epic
 	-> Feature
 	-> Story
 	-> Step
-	
+
 	Attach Screenshots to the reporting using TestNG Listeners
-	
-		
+
+
 	*/
-	
+
 	WebDriver driver;
-	
+
 	@BeforeClass
 	public void setUp() {
-		WebDriverManager.chromedriver().setup();	
-		
+		WebDriverManager.chromedriver().setup();
+
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://demo.nopcommerce.com/");
 	}
-	
-	
+
+
 	@Test(priority=1, description ="verify logo is presence on Home Page")
 	@Description("verify home page")
 	@Epic("EP001")
@@ -61,8 +61,8 @@ public class Allure_Reports {
 		boolean logo = driver.findElement(By.xpath("/html/body/div[6]/div[1]/div[2]/div[1]/a/img")).isDisplayed();
 		Assert.assertEquals(logo, true);
 	}
-	
-	
+
+
 	@Test(priority=2)
 	@Description("verify loginpage")
 	@Epic("EP001")
@@ -77,14 +77,14 @@ public class Allure_Reports {
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("/html/body/div[6]/div[3]/div/div/div/div[2]/div[1]/div[2]/form/div[3]/button")).click();
 	}
-	
-	
+
+
 	@Test(priority=3)
 	public void registrationTest() {
 		throw new SkipException("Skipping this Test");
 	}
-	
-	
+
+
 	@AfterClass
 	public void tearDown() {
 		driver.quit();

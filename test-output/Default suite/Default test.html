@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Mar 11 09:59:44 CDT 2024</td>
+<td>Started on:</td><td>Fri Aug 16 11:24:46 CDT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>13 seconds (13971 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (180 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,87 +67,24 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='applitools_UI_Test.Applitools_UI_Test.setUp()'><b>setUp</b><br>Test class: applitools_UI_Test.Applitools_UI_Test</td>
-<td><div><pre>com.applitools.eyes.EyesException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=122.0.6261.112)
-	at com.applitools.eyes.selenium.CommandExecutor.eyesCheck(CommandExecutor.java:120)
-	at com.applitools.eyes.selenium.Eyes.checkDto(Eyes.java:480)
-	at com.applitools.eyes.selenium.Eyes.check(Eyes.java:464)
-	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1348)
-	at applitools_UI_Test.Applitools_UI_Test.setUp(Applitools_UI_Test.java:30)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1849610076", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1849610076'><pre>com.applitools.eyes.EyesException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=122.0.6261.112)
-	at com.applitools.eyes.selenium.CommandExecutor.eyesCheck(CommandExecutor.java:120)
-	at com.applitools.eyes.selenium.Eyes.checkDto(Eyes.java:480)
-	at com.applitools.eyes.selenium.Eyes.check(Eyes.java:464)
-	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1348)
-	at applitools_UI_Test.Applitools_UI_Test.setUp(Applitools_UI_Test.java:30)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>13</td>
-<td>applitools_UI_Test.Applitools_UI_Test@79207381</td></tr>
+<td title='day01_runtest_demo.Day01_Learning.runTestUsingTestNG()'><b>runTestUsingTestNG</b><br>Test class: day01_runtest_demo.Day01_Learning</td>
+<td></td>
+<td>0</td>
+<td>day01_runtest_demo.Day01_Learning@60db1c0e</td></tr>
+<tr>
+<td title='day01_runtest_demo.Day01_Learning.runTestUsingTestNG1()'><b>runTestUsingTestNG1</b><br>Test class: day01_runtest_demo.Day01_Learning</td>
+<td></td>
+<td>0</td>
+<td>day01_runtest_demo.Day01_Learning@60db1c0e</td></tr>
 </table><p>
 </body>
 </html>
