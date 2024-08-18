@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-16T11:24:46 CDT" name="Default suite" finished-at="2024-08-16T11:24:46 CDT" duration-ms="180">
+  <suite started-at="2024-08-18T09:37:20 CDT" name="Suite" finished-at="2024-08-18T09:37:21 CDT" duration-ms="185">
     <groups>
     </groups>
-    <test started-at="2024-08-16T11:24:46 CDT" name="Default test" finished-at="2024-08-16T11:24:46 CDT" duration-ms="180">
-      <class name="day01_runtest_demo.Day01_Learning">
-        <test-method signature="runTestUsingTestNG()[pri:0, instance:day01_runtest_demo.Day01_Learning@60db1c0e]" started-at="2024-08-16T11:24:46 CDT" name="runTestUsingTestNG" finished-at="2024-08-16T11:24:46 CDT" duration-ms="67" status="PASS">
+    <test started-at="2024-08-18T09:37:20 CDT" name="Test" finished-at="2024-08-18T09:37:21 CDT" duration-ms="185">
+      <class name="test.ITestListener_Demo">
+        <test-method signature="gotIn()[pri:0, instance:test.ITestListener_Demo@3e78b6a5]" started-at="2024-08-18T09:37:20 CDT" name="gotIn" finished-at="2024-08-18T09:37:20 CDT" duration-ms="59" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runTestUsingTestNG -->
-        <test-method signature="runTestUsingTestNG1()[pri:0, instance:day01_runtest_demo.Day01_Learning@60db1c0e]" started-at="2024-08-16T11:24:46 CDT" name="runTestUsingTestNG1" finished-at="2024-08-16T11:24:46 CDT" duration-ms="4" status="PASS">
+        </test-method> <!-- gotIn -->
+        <test-method signature="gotOut()[pri:0, instance:test.ITestListener_Demo@3e78b6a5]" started-at="2024-08-18T09:37:21 CDT" name="gotOut" finished-at="2024-08-18T09:37:21 CDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runTestUsingTestNG1 -->
-      </class> <!-- day01_runtest_demo.Day01_Learning -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- gotOut -->
+      </class> <!-- test.ITestListener_Demo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
